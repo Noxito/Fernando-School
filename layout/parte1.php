@@ -224,6 +224,30 @@ scratch. This page gets rid of all links and provides the needed markup only.
                             </ul>
                         </li>
 
+                        <li class="nav-item">
+                            <a href="#" class="nav-link bg-warning">
+                                <i class="nav-icon fas fa-shopping-basket"></i>
+                                <p>
+                                    Ventas
+                                    <i class="right fas fa-angle-left"></i>
+                                </p>
+                            </a>
+                            <ul class="nav nav-treeview">
+                                <li class="nav-item">
+                                    <a href="<?php echo $URL; ?>/ventas" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Lista de venta</p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="<?php echo $URL; ?>/ventas/create.php" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Realizar venta</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+
 
                         <li class="nav-item">
                             <a href="<?php echo $URL; ?>/app/controllers/login/cerrar_sesion.php" class="nav-link"
